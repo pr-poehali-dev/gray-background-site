@@ -4,14 +4,14 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div
-      className="min-h-screen flex items-center justify-center relative bg-gray-200"
+      className="min-h-screen flex items-center justify-center relative bg-gray-600"
       style={{
         background:
-          "radial-gradient(ellipse at center, #e5e5e5 0%, #d0d0d0 50%, #a8a8a8 100%)",
+          "radial-gradient(ellipse at center, #6b7280 0%, #4b5563 50%, #374151 100%)",
       }}
     >
       {/* Виньетка по бокам */}
-      <div className="absolute inset-0 bg-gradient-to-r from-gray-600/30 via-transparent to-gray-600/30 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-r from-gray-900/40 via-transparent to-gray-900/40 pointer-events-none" />
 
       <div className="text-center z-10 max-w-md mx-auto px-8">
         {/* Логотип */}
@@ -29,7 +29,7 @@ const Index = () => {
             onClick={() =>
               window.open("https://fitzbr.42web.io/jobs.html", "_blank")
             }
-            className="w-full py-6 text-lg font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-blue-900 to-purple-900 hover:from-blue-800 hover:to-purple-800 border-0"
+            className="w-full py-6 text-lg font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-gray-700 via-blue-900 to-purple-900 hover:from-gray-600 hover:via-blue-800 hover:to-purple-800 border-0"
           >
             <Icon name="Briefcase" className="mr-3" size={24} />
             Генератор профессий [SUP]
@@ -39,7 +39,7 @@ const Index = () => {
             onClick={() =>
               window.open("https://discord.gg/8SzNbQ466c", "_blank")
             }
-            className="w-full py-6 text-lg font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-blue-900 to-purple-900 hover:from-blue-800 hover:to-purple-800 border-0"
+            className="w-full py-6 text-lg font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-gray-700 via-blue-900 to-purple-900 hover:from-gray-600 hover:via-blue-800 hover:to-purple-800 border-0"
           >
             <Icon name="Users" className="mr-3" size={24} />
             Комьюнити
@@ -47,7 +47,7 @@ const Index = () => {
 
           <Button
             onClick={() => window.open("https://github.com/ST37332", "_blank")}
-            className="w-full py-6 text-lg font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-blue-900 to-purple-900 hover:from-blue-800 hover:to-purple-800 border-0"
+            className="w-full py-6 text-lg font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-gray-700 via-blue-900 to-purple-900 hover:from-gray-600 hover:via-blue-800 hover:to-purple-800 border-0"
           >
             <Icon name="Code" className="mr-3" size={24} />
             Разработчик
